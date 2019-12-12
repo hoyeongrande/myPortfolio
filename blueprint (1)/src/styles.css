@@ -1,0 +1,146 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #924943;
+}
+
+.phone {
+  margin: 50px;
+  background-color: #d9d9d9;
+  height: 700px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 5px 15px 5px 5px black;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.popular {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-recipes {
+  font-weight: bold;
+}
+
+.view-all {
+  font-weight: bold;
+  color: #eb7d88;
+}
+
+.picture {
+  display: flex;
+  padding-left: 12px;
+}
+
+.picture-elements {
+  background: linear-gradient(rgba(241, 242, 246, 0.2), #1c2022 150%),
+    url("https://www.onceuponachef.com/images/2019/07/Big-Italian-Salad-760x983.jpg");
+  background-size: 150px;
+  color: white;
+  text-align: center;
+  line-height: 450%;
+  margin: 6px;
+  background-color: black;
+
+  height: 75px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.picture-elements-2 {
+  background: linear-gradient(rgba(241, 242, 246, 0.2), #1c2022 150%),
+    url("https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/53/2007/10/Squash-puree-baby-food.jpg");
+  background-size: 150px;
+  color: white;
+  text-align: center;
+  line-height: 450%;
+  margin: 6px;
+  background-color: black;
+  height: 75px;
+  width: 150px;
+  border-radius: 20px;
+}
+.picture-elements:nth-child(2) {
+  background: linear-gradient(rgba(241, 242, 246, 0.2), #1c2022 150%),
+    url("https://food-images.files.bbci.co.uk/food/recipes/salted_dark_chocolate_16338_16x9.jpg");
+  background-size: 150px;
+}
+
+.picture-elements-2:nth-child(2) {
+  background: linear-gradient(rgba(241, 242, 246, 0.2), #1c2022 150%),
+    url("https://cdn.loveandlemons.com/wp-content/uploads/2013/06/strawberry-banana-smoothie.jpg");
+  background-size: 150px;
+}
+
+.other-recipes {
+  font-weight: bold;
+  display: flex;
+  padding: 20px;
+}
+
+.other {
+  padding: 20px;
+  margin-top: -20px;
+}
+
+.other-elements {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 2px 2px 0px 0px #b5bdc8;
+}
+
+.other-elements-1 {
+  margin-bottom: 5px;
+  margin-top: -3px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.other-elements-2 {
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.fa-chevron-right {
+  color: #eb7d88;
+  line-height: 200%;
+}
+
+.nav-bar {
+  margin-left: -20px;
+  margin-top: 25px;
+  background-color: white;
+  background-size: cover;
+  border-radius: 0px 0px 20px 20px;
+  height: 60px;
+  width: 350px;
+}
+
+.nav-bar-icon {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.fa-cookie-bite {
+  color: #eb7d88;
+}

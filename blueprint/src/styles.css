@@ -1,0 +1,202 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+body {
+  font-family: open sans;
+  padding: 50px;
+  background-color: #745c97;
+}
+
+.background {
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+}
+
+.phone {
+  background-image: url("https://lonelyplanetwp.imgix.net/2016/04/Santorini-53c9e0dca77b.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
+  box-shadow: -100px -500px 2000px #eff0f5 inset;
+  overflow: hidden;
+  height: 900px;
+  width: 380px;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.clock {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.picture {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.picture-square {
+  margin-top: 200px;
+  margin-right: 15px;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+}
+.picture-con {
+  display: flex;
+}
+.picture-square-more {
+  display: inline-block;
+  margin-top: 200px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  height: 60px;
+  width: 60px;
+  line-height: 350%;
+  background-color: #1a50ff;
+}
+
+.keywords {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.keywords-elements {
+  margin: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #bcc8e1;
+  color: #1a50ff;
+  padding: 3px 15px;
+  border-radius: 10px 10px 10px 1px;
+}
+
+.travel {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-heart {
+  margin-top: 10px;
+  margin-right: 30px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  color: red;
+}
+
+.fa-map-marker-alt {
+  color: #1a50ff;
+}
+
+.fa-star {
+  color: #febc52;
+}
+
+.location-div {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+
+.location {
+  opacity: 0.6;
+}
+
+.travel-rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.rating {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.meters {
+  opacity: 0.6;
+}
+
+h3 {
+  opacity: 0.6;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.overview {
+  padding: 20px;
+}
+
+.overview-description {
+  font-size: 18px;
+  line-height: 175%;
+}
+
+.readmore {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #1a50ff;
+}
+
+.fa-map-marked-alt {
+  position: relative;
+  border: 3px solid white;
+  color: white;
+  margin-left: 40%;
+  padding: 15px;
+  background-color: #1a50ff;
+  border-radius: 50%;
+  top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.fa-home {
+  margin-left: -20px;
+}
+
+.fa-globe-americas {
+  margin-left: 40px;
+  color: #1a50ff;
+  border-top: 3px solid #1a50ff;
+  padding-top: 30px;
+  margin-top: -100px;
+}
+
+.fa-users {
+  margin-right: 40px;
+}
+
+.fa-cog {
+  margin-right: -20px;
+}
+
+.footer-line {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid #f7f7f7;
+}
